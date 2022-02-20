@@ -1,0 +1,12 @@
+table, td, tr{
+    border: 3px solid red;
+
+}
+
+#example1 {
+    caption-side: bottom;
+}
+
+#example2 {
+    caption-side: top;
+}

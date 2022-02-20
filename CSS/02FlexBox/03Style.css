@@ -1,0 +1,19 @@
+/* add flex to parent contianer  */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row nowrap;
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}

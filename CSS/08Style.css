@@ -1,0 +1,7 @@
+body{
+    background-image: url(./08img_tree.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: auto; */
+    /* background-attachment: scroll; */
+}

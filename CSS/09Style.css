@@ -1,0 +1,11 @@
+table, td, th{
+    border: 1px solid black;
+}
+
+#table1{
+    border-collapse: separate;
+}
+
+#table2{
+    border-collapse: collapse;
+}

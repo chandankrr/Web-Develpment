@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+
+}
+
+.box:hover{
+    background-color: lightblue;
+}

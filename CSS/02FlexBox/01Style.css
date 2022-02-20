@@ -1,0 +1,15 @@
+*{
+    border: 1px solid blue;
+}
+
+.flex-container{
+    background-color: indianred;
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    
+    display: inline-block;
+}

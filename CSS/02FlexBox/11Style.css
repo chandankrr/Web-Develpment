@@ -1,0 +1,21 @@
+/* add flex to parent contianer  */
+/* adding flex-basis to child  ->> initial width is 100px but basis width 300px means when is start adjesting then it take 100px otherwise it will take 300px */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+
+#two{
+    flex-basis: 300px;
+}

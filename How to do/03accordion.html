@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accordion</title>
+        <style>
+            .accordion {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+            }
+
+            .active,
+            .accordion:hover {
+                background-color: #ccc;
+            }
+
+            .panel {
+                padding: 0 18px;
+                display: none;
+                background-color: #fff;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Accordion</h2>
+
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio
+                natus ad ipsum velit dolorem possimus voluptas soluta, consequuntur
+                veritatis qui dicta aliquam impedit nobis ex vero debitis nemo illo!
+                Incidunt doloremque cupiditate deleniti nostrum? Optio hic eligendi animi
+                earum asperiores repellat. Nesciunt pariatur esse dolores minima ipsam,
+                incidunt reiciendis quibusdam, inventore qui quam voluptatem id quod
+                exercitationem explicabo ipsa nulla? Ut cumque facilis odio provident
+                natus officiis beatae tempore sed excepturi ducimus, deserunt amet
+                voluptatem numquam libero commodi harum neque nulla unde fuga. Animi
+                voluptas illo pariatur impedit. Incidunt placeat voluptas ipsum, itaque
+                quibusdam inventore omnis. Eius, dolor tempore!
+            </p>
+        </div>
+
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo facere
+                velit nemo, nostrum ratione fugiat iure distinctio officia optio excepturi
+                quam voluptatum tempore natus doloribus quod, soluta magnam dolore illum.
+                Quidem, quos, alias temporibus dignissimos iure veritatis reiciendis
+                dolore labore animi consectetur sapiente hic modi aperiam enim deleniti ea
+                quod dolorum a! Molestiae harum soluta officia eligendi cumque sint
+                maiores officiis laudantium fugit cum praesentium, nostrum vitae ea
+                consequatur aperiam voluptatibus necessitatibus quos vero, ut
+                reprehenderit laborum ipsum. Quos reiciendis facere beatae culpa dolores
+                id at. Voluptates totam nam consectetur, porro voluptatum officiis,
+                aperiam fuga, molestiae natus veritatis aut obcaecati!
+            </p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi
+                doloribus consectetur veniam sint provident blanditiis debitis aspernatur
+                incidunt animi error, dolores deserunt eos eius nostrum rerum eaque iste
+                ut facilis necessitatibus voluptate eum et culpa. Expedita at consequatur
+                eos autem, incidunt reiciendis maiores, aliquid culpa et dolorem nihil.
+                Nemo nisi corporis voluptatem provident sit, distinctio quam quidem non,
+                minima minus facilis. Ex maxime iure ipsam nesciunt. Magni laudantium
+                eligendi quidem quasi? Suscipit vel facere iure debitis repellendus
+                officia, doloremque distinctio quasi nisi dolore pariatur vitae soluta
+                odit sed at doloribus minima natus ratione repellat in quam sequi? Non,
+                porro.
+            </p>
+        </div>
+
+        <script>
+            let acc = document.getElementsByClassName("accordion");
+
+            for (let i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    let panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>

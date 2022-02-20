@@ -1,0 +1,22 @@
+/* add flex to parent contianer  */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    height: 400px;
+
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    align-items: flex-end;
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}

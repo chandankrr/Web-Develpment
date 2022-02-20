@@ -1,0 +1,27 @@
+/* add flex to parent contianer  */
+/* align-content is same as justify content but it affect colums */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+    align-items: stretch;
+
+    /* align-content: stretch; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+    /* align-content: flex-start; */
+    align-content: center;
+    /* align-content: flex-end; */
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div1{
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: magenta; */
+    border: 3px solid red;
+    border-width: thin;
+    padding: 30px;
+    margin: 30px 10px;
+}
+
+.div2{
+    padding: 30px;
+    border: 7px dotted blue;
+    margin-top: -70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,18 @@
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./10border.png) 30 round;
+}
+
+/* #borderimg2 {
+    border: 10px solid transparent;
+    padding:  15px;
+    border-image: url(./10border.png) 30 stretch;
+} */
+
+#borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./10border.png);
+    border-image-outset: 10px;
+}

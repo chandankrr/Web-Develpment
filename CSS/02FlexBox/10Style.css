@@ -1,0 +1,32 @@
+/* add flex to parent contianer  */
+/* adding flex-shrink to child  */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+#one{
+    flex-shrink: 1;
+}
+
+#two{
+    flex-shrink: 2;
+}
+
+#three{
+    flex-shrink: 3;
+}
+
+#four{
+    flex-shrink: 0;
+}

@@ -1,0 +1,32 @@
+/* add flex to parent contianer  */
+/* adding flex grow  */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one{
+    flex-grow: 1;
+}
+
+#two{
+    flex-grow: 2;
+}
+
+#three{
+    flex-grow: 3;
+}
+
+#four{
+    flex-grow: 4;
+}

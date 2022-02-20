@@ -1,0 +1,33 @@
+/* add flex to parent contianer  */
+/* adding align self to child element */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    height: 400px;
+    
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one{
+    align-self: flex-start;
+}
+
+#two{
+    align-self: center;
+}
+
+#three{
+    align-self: center;
+}
+
+#four{
+    align-self: flex-end;
+}
