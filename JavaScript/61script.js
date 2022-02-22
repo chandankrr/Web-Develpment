@@ -1,4 +1,4 @@
-// improved file 59.script.js
+// improved file 59.script.js using proto and chaining
 
 const userMethod = {
     about() {
