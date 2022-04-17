@@ -11,7 +11,7 @@ const ans = numbers.some((number) => {
 console.log(ans);
 
 // --------- real life example
-// check wheather any cartItem is more than 100000
+// check whether any cartItem is more than 100000
 const userCart = [
     { productId: 1, productName: "mobile", price: 12000 },
     { productId: 2, productName: "tv", price: 120000 },
